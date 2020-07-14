@@ -62,7 +62,7 @@ body {
 }
 
 .card2 {
-    color: ;
+    color: #fff;
     padding: 5px;
     text-align: center;
     height: 80px;
@@ -117,6 +117,7 @@ progress[value]::-webkit-progress-value{
 }
 
 .notification {
+    color: #fff;
     position: absolute;
     top: 10px;
     left: 20px;
@@ -124,12 +125,14 @@ progress[value]::-webkit-progress-value{
 }
 
 .min {
+    color: #fff;
     position: absolute;
     bottom: 0px;
     left: 20px;
 }
 
 .max {
+    color: #fff;
     position: absolute;
     bottom: 0px;
     right: 20px;
