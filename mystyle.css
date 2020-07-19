@@ -23,22 +23,29 @@ body {
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: 100%  50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
     display: flex;
     align-items: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    
+    
+    /*top: 50%;
+    left: 50;
+    
+    transform: translate(-50%, -50%);*/
 }
 
 .card1 {
     padding: 15px;
     background-color: hsl(228, 56%, 26%);
     border-radius: 5px 35px 5px 5px;
-    width: 200px;
+    min-width: 200px;
+    height: 80px;
 }
 
 .card1 img {
@@ -68,7 +75,7 @@ body {
     height: 80px;
     background-color: hsl(228, 56%, 26%);
     border-radius: 5px;
-    width:400px;
+    min-width:400px;
     margin-left: 15px;
     margin-top: 10px;
     position: relative;
