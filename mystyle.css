@@ -51,13 +51,16 @@ body {
 
 .card1 img {
     margin-left: 5px;
+    
     width: 60%;
-    height: 60%;
+    height: auto;
 }
 
 .icons {
     display: flex;
-    margin-top: 20px;
+    align-items: center;
+    
+    margin-top: 10px;
 }
 
 .icons img {
